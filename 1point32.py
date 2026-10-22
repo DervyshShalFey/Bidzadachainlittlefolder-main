@@ -2,7 +2,7 @@ from transformation import *
 from math import *
 try:
     x = float(input('Insert volume of object: '))
-    if xy<=0:
+    if x<=0:
         raise Exception
     y = float(input('Insert weight of object: '))
     if y<=0:

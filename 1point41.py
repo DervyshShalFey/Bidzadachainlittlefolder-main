@@ -1,4 +1,4 @@
-#UNFINISHED
+
 from transformation import *
 from math import *
 try:
@@ -14,9 +14,10 @@ try:
         print('A) Can\'t divide by zero!')
     except:
         print(f'A) Square root of |{x}-(3/{neg(y)})|^3+{pluey(z)}) is undefined.')
+    print(f'Б) b = Sinus of e + (cosinus of h)^2\n   If e is equal to {x} and h is equal to {y}, then b will be equal to {sin(x)+(cos(y)**2)}')
     try:
-        print(f'Б) y = (|a|+2*sinus of b)/(5.5*a) \n   If a is equal to {x} and b is equal to {y}, then y will be equal to {(module(x)+2*sin(y))/(5.5*x)}')
+        print(f'B) c = 33g/(ef - 3)\n   If e is equal to {x}, f is equal to {y} and g is equal to {z}, then x will be equal to {transform((33*z)/(x*y-3))}')
     except ZeroDivisionError:
-            print('Б) Can\'t divide by zero!')
+        print('B) Can\'t divide by zero!')
 except ValueError:
     print('Not a number!')
