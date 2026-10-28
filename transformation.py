@@ -1,3 +1,4 @@
+from math import *
 def transform(x): # превращение целых чисел в инт
     if x.is_integer():
         x = int(x)
@@ -23,3 +24,11 @@ def module(x): # Просто модуль типо |x|
     if x < 0:
         x*=-1
     return x
+
+
+def coo(x1, x2):
+    return (x2-x1)**2
+
+def transappend(x, list):
+    transform(x)
+    list.append(x)

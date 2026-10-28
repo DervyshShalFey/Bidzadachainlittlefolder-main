@@ -9,7 +9,7 @@ try:
         raise Exception
     x = transform(x)
     y = transform(y)
-    print(f'Perimeter of this right-angled traingle: {transform(x+y+(sqrt((x**2)+(y**2))))}')
+    print(f'Perimeter of this right-angled triangle: {transform(x+y+(sqrt((x**2)+(y**2))))}')
 except ValueError:
     print('Not a number!')
 except Exception:

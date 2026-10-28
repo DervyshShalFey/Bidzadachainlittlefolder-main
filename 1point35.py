@@ -9,7 +9,7 @@ try:
         raise Exception
     x = transform(x)
     y = transform(y)
-    print(f'Hypotenuse of this right-angled traingle: {transform((sqrt((x**2)+(y**2))))}')
+    print(f'Hypotenuse of this right-angled triangle: {transform((sqrt((x**2)+(y**2))))}')
 except ValueError:
     print('Not a number!')
 except Exception:
