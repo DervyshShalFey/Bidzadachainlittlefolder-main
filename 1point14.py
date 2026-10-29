@@ -1,12 +1,6 @@
 from math import *
 from transformation import *
 
-def module(x):
-    if x < 0:
-        x*=-1
-    return x
-
-
 try:
     x = float(input('Insert number: '))
     x = transform(x)
